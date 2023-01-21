@@ -16,11 +16,11 @@ a {
     display: block;
     color: rgb(255, 255, 255);
     font-size: 15.2061px;
-    transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.05s;
 }
 
 a:hover {
- color: rgb(208, 255, 0);
+ color: #61edff;
 }
 
 img {
@@ -57,7 +57,7 @@ img {
 
 /* criando início */
 #inicio {
-    background: linear-gradient(63.13deg, #352728 51.04%, #8E5D52 51.05%);
+    background: linear-gradient(63.13deg, #012030 51.04%, #13678A 51.05%);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@ img {
 .linkedin {
     width: 479px;
     height: 85px;
-    background-color:#8E5D52;
+    background-color:#13678A;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,7 +122,7 @@ img {
     border: 1px;
     border-style: dotted;
     border-color: rgba(53, 48, 48, 0.075);
-    background-color: #352728;
+    background-color: #012030;
     border-radius: 55px;
     filter: blur(0.6px);
 }
@@ -303,7 +303,7 @@ img {
         z-index: 2;
         top: 2rem;
         right: 2rem;
-        background: #792e33;
+        background: #1b6686;
         color: white;
         font-size: 3rem;
         line-height:3rem;

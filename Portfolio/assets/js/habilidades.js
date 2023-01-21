@@ -1,14 +1,12 @@
 const skills = document.querySelectorAll('.skill-box');
 const descricao = document.querySelector('.texto-descricao');
 const sobreSkill = [
-                    '<p>HTML</p> <br> <p>É uma linguagem de marcação utilizada na construção de páginas na Web.</p> <br>',
-                    '<p>CSS</p> <br> <p>É um mecanismo para adicionar estilo a um documento web.</p> <br>',
-                    '<p>JavaScript</p> <br> <p>É uma linguagem de programação. Juntamente com HTML e CSS, é uma das três principais tecnologias da web.</p> <br>',
-                    '<p>ReactJS</p> <br> <p>O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.</p> <br>',
-                    '<p>Styled Components</p> <br> <p>É uma biblioteca (lib) que utiliza o conceito de CSS-in-JS, ou seja, que nos permite escrever códigos CSS dentro do Javascript.</p> <br>',
-                    '<p>Sass</p> <br> <p>É uma linguagem de folhas de estilo. Basicamente o Sass potencializa o CSS.</p> <br>',
-                    '<p>Git</p> <br> <p>É um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software.</p> <br>',
-                    '<p>Github</p> <br> <p>É uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. </p> <br>'
+                    '<p>HTML</p> <br> <p>Linguagem de marcação que é utilizada para criar e estruturar conteúdo para a web. Ele é usado para especificar como o conteúdo deve ser exibido pelo navegador, através de tags (marcações) que especificam como elementos devem ser exibidos na página.</p> <br>',
+                    '<p>CSS</p> <br> <p>Linguagem de estilo que permite controlar a aparência de elementos HTML, tais como cores, fontes, espaçamento, layout, entre outros.</p> <br>',
+                    '<p>JavaScript</p> <br> <p>Linguagem de programação originalmente criado para adicionar interatividade e dinamismo a páginas web, mas hoje é amplamente utilizado em muitas outras áreas, como desenvolvimento web, mobile, desktop, e até mesmo inteligência artificial e Internet das coisas./p> <br>',
+                    '<p>Python</p> <br> <p>Linguagem de programação criada por Guido van Rossum em 1991. Ela tem uma sintaxe simples e fácil de aprender, o que a torna uma boa escolha para iniciantes, mas também é poderosa o suficiente para ser usada em projetos avançados. É utilizado para desenvolvimento web, análise de dados, inteligência artificial e ciência de dados.</p> <br>',
+                    '<p>Git</p> <br> <p>Git é um sistema de controle de versão de código-fonte desenvolvido por Linus Torvalds em 2005. Ele permite que os desenvolvedores rastreiem as alterações feitas no código-fonte de um projeto, revertam-nas se necessário e colaborem eficientemente em equipe. <br>',
+                    '<p>Github</p> <br> <p>Plataforma de desenvolvimento colaborativo baseada na web que utiliza o sistema de controle de versão Git. Oferece armazenamento de código-fonte e permite a colaboração em projetos de terceiros.</p> <br>'
 ]
 const dataInicio = [
                     (new Date(2021, 10, 1)).getTime(), // 0
@@ -35,5 +33,3 @@ skills.forEach(  (elemento, index) => {
         descricao.innerHTML = '/* Passe o mouse por cima de alguma habilidade para ler a descrição */';
     } )
 } );
-
-

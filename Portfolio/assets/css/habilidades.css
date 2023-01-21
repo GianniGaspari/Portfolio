@@ -1,5 +1,5 @@
 #habilidades {
-    background-color: #493737;
+    background-color: #13678A;
 }
 
 .habilidades-pd {
@@ -103,56 +103,27 @@
 }
 
 .skill1{
-    background-image: url(../img/html2.svg);
+    background-image: url(../img/html.svg);
 }
 
 .skill2 {
-    background-image: url(../img/css2.svg);
+    background-image: url(../img/css.svg);
 }
 
 .skill3 {
-    background-image: url(../img/js2.svg);
-}
-
-.skill4 {
-    background-image: url(../img/node2.svg);
-}
-
-.skill5 {
-    background-image: url(../img/php2.svg);
-}
-
-.skill6 {
-    background-image: url(../img/java2.svg);
+    background-image: url(../img/js.svg);
 }
 
 .skill7 {
-    background-image: url(../img/react2.svg);
-}
-
-.skill8 {
-    background-image: url(../img/styled\ 2.svg);
+    background-image: url(../img/python.svg);
 }
 
 .skill9 {
-    background-image: url(../img/git2.svg);
+    background-image: url(../img/git.svg);
 }
-
 
 .skill10 {
-    background-image: url(../img/github2.svg);
-}
-
-.skill11 {
-    background-image: url(../img/bootstrap2.svg);
-}
-
-.skill12 {
-    background-image: url(../img/typescript2.svg);
-}
-
-.skill13 {
-    background-image: url(../img/sass2.svg);
+    background-image: url(../img/github.svg);
 }
 
 #fundo {

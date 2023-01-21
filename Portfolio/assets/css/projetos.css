@@ -1,5 +1,5 @@
 #projetos {
-    background-color: #352728;
+    background-color: #012030;
 }
 
 .projetos {
@@ -19,13 +19,13 @@ button {
     border-radius: 25px;
     cursor: pointer;
     color: white;
-    background-color: #493737;
+    background-color: #053e5a;
     border: none;
     transition: ease-in-out 0.3s;
 }
 
 button:hover {
-    background-color: #a16c60;
+    background-color: #005b88;
 }
 
 .github-link {
@@ -44,7 +44,7 @@ button:hover {
 }
 
 .pro {
-    background-color: #C4C4C4;
+    background-color: #082a3b;
     height: 195px;
     width: 310px;
     border-radius: 20px;
@@ -67,7 +67,7 @@ button:hover {
 }
 
 .pro div {
-    background-color: #705656;
+    background-color: #025b88;
     width: 1000px;
     text-align: center;
     padding: 5% 0;

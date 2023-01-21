@@ -54,6 +54,9 @@
 }
 
 @media (max-width:1200px) {
+    .desenho {
+        padding: 2px 0;
+    }
 
     .conteiner-descricao {
         height: 260px;

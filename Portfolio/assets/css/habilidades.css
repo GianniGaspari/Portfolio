@@ -54,7 +54,8 @@
 }
 
 @media (max-width:1200px) {
-    .desenho {
+    desenho {
+        margin: auto;
         padding: 2px 0;
     }
 

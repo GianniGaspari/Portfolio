@@ -7,6 +7,10 @@ ul {
     flex-wrap: wrap;
 }
 
+a li:hover {
+    transform: scale(101%);
+}
+
 nav {
     width: 50%;
 }
@@ -21,6 +25,8 @@ a {
 
 a:hover {
  color: #61edff;
+ transform: scale(104%);
+ transition: ease-out 0.1s;
 }
 
 img {

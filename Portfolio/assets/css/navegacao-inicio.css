@@ -24,9 +24,9 @@ a {
 }
 
 a:hover {
- color: #61edff;
- transform: scale(104%);
- transition: ease-out 0.1s;
+    color: #61edff;
+    transform: scale(104%);
+    transition: ease-out 0.1s;
 }
 
 img {
@@ -35,7 +35,8 @@ img {
 }
 
 .logo {
-    padding: 15px 0;
+    padding: 10px 0;
+    max-width: 60px;
 }
 
 .barra {

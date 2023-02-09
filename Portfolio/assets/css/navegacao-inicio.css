@@ -7,6 +7,10 @@ ul {
     flex-wrap: wrap;
 }
 
+.cabeca {
+    font-family: 'Major Mono Display', monospace;
+}
+
 a li:hover {
     transform: scale(101%);
 }

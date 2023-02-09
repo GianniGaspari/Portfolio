@@ -13,7 +13,7 @@
 }
 
 h2 {
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Major Mono Display', monospace;
     font-size: 45px;
     color: white;
 }
@@ -23,14 +23,13 @@ h2 {
 }
 
 .avatar {
-    width: 323px;
-    height: 368px;
-    position: relative;
+    display: auto;
     cursor: pointer;
     transition: ease 1s;
 }
 
 .avatar:hover {
+    
     transform: scale(1.05);
 }
 

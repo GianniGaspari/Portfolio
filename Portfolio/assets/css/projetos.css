@@ -88,6 +88,7 @@ button:hover {
     gap: 29.5px;
     width: 100%;
     justify-content: center;
+    padding-bottom: 25px;
 }
 
 @media (max-width:1200px) {
